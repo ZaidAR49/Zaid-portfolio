@@ -56,9 +56,6 @@ li > p {
   width: 10%;
 }
 @media (max-width: 770px) {
-  body {
-    background-color: rgb(62, 106, 89);
-  }
   .card {
     width: 80%;
     margin: 30px;
