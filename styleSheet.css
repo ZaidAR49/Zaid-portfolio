@@ -50,3 +50,26 @@ li > p {
   background-color: rgb(47, 23, 205);
   width: 325%;
 }
+#mp {
+  border: 3pt double;
+  border-width: 2px 0px;
+  width: 10%;
+}
+@media (max-width: 770px) {
+  .card {
+    width: 80%;
+    margin: 30px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .card > img {
+    float: none;
+    width: 200px;
+  }
+  #mp {
+    border: 3pt double;
+    border-width: 2px 0px;
+    width: 40%;
+  }
+}
