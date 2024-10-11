@@ -50,3 +50,8 @@ li > p {
   background-color: rgb(47, 23, 205);
   width: 325%;
 }
+@media (max-width: 770) {
+  body {
+    background-color: rgb(62, 106, 89);
+  }
+}
