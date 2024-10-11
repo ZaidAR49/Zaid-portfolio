@@ -1,32 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="font-size: medium">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styleSheet.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
   </head>
   <body>
-    <h1>Zaid Radaideh portfolio</h1>
-    <h2>Software Engineer</h2>
-    <hr />
-    <h3>My project:</h3>
+    <div style=" border: 5px solid rgb(139, 110, 255);border-bottom: 0px; border-width: 30px 10px 5px 10px;"><h4 style="font-family: 'Reem Kufi'; font-size: 0.8rem; text-align: center"> بسم الله الرحمن الرحيم</h4>
+     
+    </h4>
+    <h1><center>Zaid Radaideh portfolio</center></h1>
+    <h2 style="border: 5px dotted black; border-width: 3px 0px; margin: 30pt 1pt 10pt 1pt;"><center>Software Engineer</center></h2>
+  </div>
+    
+
+    <h3 style="text-align: start ;border: 5px solid black;border-right: 30px; margin: 0px 1350px 30px 10px; padding: 10px;border-style: dotted hidden dotted solid;" >My projects:</h3>
+    <span id="like"><img src="./assist/favorite.png" alt="like"></span>
     <ul>
       <li>
-        <a href="https://github.com/ZaidAR49/car-game.git"
-          >racing game using Windowsform.net</a
+        <div class="card">
+        <a href="https://github.com/ZaidAR49/car-game.git" draggable="true"
+          ><span id="download">download</span> racing game using Windowsform.net</a
         >
-        <br />
+       
+        
         <img src="./assist/1.jpg" width="250" />
+       <p>The racing car game is a project developed using Windows Forms in Visual 
+        Studio with C#. It allows players to switch their character from a car to other
+         objects, like a ball, to create a varied gameplay experience. Developed in
+          collaboration with a team from JUST University, the game was completed within
+          two weeks. It features three levels, each with increasing difficulty to challenge
+           players as they progress. The game combines intuitive racing mechanics with simple
+            graphics, making it accessible and engaging for casual gamers. This project 
+            demonstrates the team's ability to quickly develop a functional game, showcasing
+             technical skills in C# and Windows Forms.</p>
+            <hr/>
+          </div>
       </li>
       <li>
-        <a href="https://github.com/ZaidAR49/Network-project.git"
-          >Network for university</a
-        >
-        <br />
-        <img src="./assist/2.jpg" width="250" style="border: 0ch" />
+        <div class="card">
+        <a
+          href="https://github.com/ZaidAR49/Network-project.git"
+          draggable="true"><span id="download">download</span>Network for university</a >
+       
+        <img src="./assist/2.jpg" width="250"  />
+        <p>The university network project involved connecting over 900 devices, including
+           laptops, routers, and access points, using Cisco technology. The project, completed
+            by a team of five members in less than two weeks, demonstrates efficient
+             collaboration and technical expertise in network design and configuration. It
+              showcases the team's ability to manage and integrate large-scale networks using
+               Cisco equipment, ensuring seamless connectivity across diverse devices.</p>
+               <hr> 
+         </div>
       </li>
+  
     </ul>
     <hr />
-    <a href="./contact.html"> contact me</a>
+    <a id="contact" href="./contact.html"> contact me</a>
   </body>
 </html>
+
